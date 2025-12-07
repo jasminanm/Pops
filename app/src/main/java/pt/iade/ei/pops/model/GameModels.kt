@@ -39,19 +39,19 @@ object GameStoreRepository {
                     id = "g01i01",
                     name = "Pacote de Recursos",
                     description = "Recursos essenciais para sobrevivência: medicamentos, materiais e munições.",
-                    priceUsd = 4.99
+                    priceUsd = 4.59
                 ),
                 GameItem(
                     id = "g01i02",
                     name = "Expansão Left Behind",
                     description = "DLC adicional explorando a história de Ellie antes dos eventos principais.",
-                    priceUsd = 9.99
+                    priceUsd = 9.19
                 ),
                 GameItem(
                     id = "g01i03",
                     name = "Pacote de Skins Premium",
                     description = "Conjunto exclusivo de skins para Ellie e Joel.",
-                    priceUsd = 14.99
+                    priceUsd = 13.99
                 )
             )
         ),
@@ -68,19 +68,19 @@ object GameStoreRepository {
                     id = "g02i01",
                     name = "Pacote Berserker",
                     description = "Armaduras e armas lendárias do guerreiro nórdico.",
-                    priceUsd = 6.49
+                    priceUsd = 5.99
                 ),
                 GameItem(
                     id = "g02i02",
                     name = "Expansão Dawn of Ragnarök",
                     description = "Nova expansão épica com deuses nórdicos e novos reinos.",
-                    priceUsd = 11.99
+                    priceUsd = 10.99
                 ),
                 GameItem(
                     id = "g02i03",
                     name = "Pacote de Recursos",
                     description = "Recursos para melhorar seu assentamento e equipamentos.",
-                    priceUsd = 3.99
+                    priceUsd = 3.69
                 )
             )
         )
