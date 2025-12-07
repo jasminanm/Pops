@@ -16,11 +16,8 @@ data class GameItem(
 data class Game(
     val id: String,
     val title: String,
-    val genre: String,
     val shortDescription: String,
-    val rating: Double,
     @DrawableRes val coverRes: Int,
-    val featuredTag: String,
     val purchasableItems: List<GameItem>
 ) : Parcelable
 
@@ -29,11 +26,8 @@ object GameStoreRepository {
         Game(
             id = "g01",
             title = "The Last of Us Part I",
-            genre = "Ação-Aventura",
             shortDescription = "Uma jornada emocional através de um mundo pós-apocalíptico.",
-            rating = 4.9,
             coverRes = pt.iade.ei.pops.R.drawable.cover_last_of_us,
-            featuredTag = "Escolha da Equipa",
             purchasableItems = listOf(
                 GameItem(
                     id = "g01i01",
@@ -58,11 +52,8 @@ object GameStoreRepository {
         Game(
             id = "g02",
             title = "Assassin's Creed Valhalla",
-            genre = "RPG de Ação",
             shortDescription = "Viva a saga épica dos Vikings na Inglaterra do século IX.",
-            rating = 4.7,
             coverRes = pt.iade.ei.pops.R.drawable.cover_assassins_creed,
-            featuredTag = "Novo",
             purchasableItems = listOf(
                 GameItem(
                     id = "g02i01",
