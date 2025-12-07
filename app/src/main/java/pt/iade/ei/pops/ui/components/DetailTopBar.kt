@@ -1,6 +1,5 @@
 package pt.iade.ei.pops.ui.components
 
-import androidx.compose.foundation.layout.Column
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -17,17 +16,10 @@ import androidx.compose.runtime.Composable
 fun DetailTopBar(title: String, onBack: () -> Unit) {
     TopAppBar(
         title = {
-            Column {
-                Text(
-                    text = title,
-                    style = MaterialTheme.typography.titleLarge
-                )
-                Text(
-                    text = "Detalhes do jogo",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            }
+            Text(
+                text = title,
+                style = MaterialTheme.typography.titleLarge
+            )
         },
         navigationIcon = {
             IconButton(onClick = onBack) {

@@ -16,11 +16,6 @@ fun GameInfoSection(game: Game) {
             text = game.shortDescription,
             style = MaterialTheme.typography.bodyLarge
         )
-        Text(
-            text = "Destaque: ${game.featuredTag}",
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
         Divider()
     }
 }
